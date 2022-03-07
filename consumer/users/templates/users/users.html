@@ -8,9 +8,6 @@
     {% for user in users.results %}
       <p>
         <b>Username: </b> {{user.username}}<br>
-        <b>Email: </b> {{user.email}}<br>
-        <b>URL: </b> {{user.url}}
-        <a href="users/{{user.id}}">Go to profile </a>
       </p>
     {% endfor %}
   </body>
